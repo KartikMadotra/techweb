@@ -1,0 +1,274 @@
+/* Your existing CSS styles here */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #001f3f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    animation: backgroundAnimation 8s infinite alternate; /* Slower background animation */
+    /* transition: background 6s ease-in-out; Slower background animation */
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-color: #001f3f;
+    }
+    10% {
+        background-color: #002a4e;
+    }
+    30% {
+        background-color: #003359;
+    }
+    50% {
+        background-color: #00365d;
+    }
+    70% {
+        background-color: #003a66;
+    }
+    100% {
+        background-color: #004074;
+    }
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: backgroundAnimation 8s infinite alternate; /* Slower background animation */
+}
+
+.header-logo {
+    height: 70px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #f3e9e9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.hero img:hover {
+    transform: scale(1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+.services img:hover{
+    transform: scale(1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); 
+}
+
+.hero div {
+    flex: 1;
+    padding: 20px;
+}
+
+#hero-text {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+/* Services Section Styles */
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    animation: backgroundAnimation 8s infinite alternate; /* Slower background animation */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.services  p{
+   font-size: larger;
+}
+/* Works with Web and Works with Android Buttons */
+.buttons {
+    text-align: center;
+}
+
+.gallery-btn {
+    background: #005580;
+    color: white;
+    padding: 15px 30px; /* Adjusted padding for larger buttons */
+    border: none;
+    border-radius: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    font-size: 1.2em; /* Increased font size */
+}
+
+.gallery-btn:hover {
+    background: #004066;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+/* Logo Styles */
+.logo {
+    width: 20px; /* Adjust the width of the logos */
+    height: 20px; /* Adjust the height of the logos */
+    margin-left: 5px; /* Add some spacing between the text and logo */
+}
+
+/* Additional Content Section Styles */
+.additional-content {
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+
+    animation: backgroundAnimation 8s infinite alternate; /* Slower background animation */
+    border-radius: 10px;  
+}
+
+.additional-content-left :hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.additional-content-right  :hover {
+    transform: scale(1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.additional-content-left img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.additional-content-right {
+    padding-left: 20px;
+    color: #fff;
+}
+
+.additional-content-right h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.additional-content-right p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Categories Section Styles */
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.category {
+    text-align: center;
+    margin-bottom: 20px; /* Adjusted margin-bottom for spacing between categories */
+    cursor: pointer;
+    /* padding: 10px; */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.category:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+
+/* Footer Styles */
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.footer-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.languages {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.languages li {
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.languages li:hover {
+    background: #005580;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+}
+
+/* Jai Shri Ram Section Styles */
+.jaishriram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff9933;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.saffron-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
