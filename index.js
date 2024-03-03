@@ -130,7 +130,7 @@ hindiOption.addEventListener("click", () => {
 function openApk() {
   // Implement your APK opening logic here
   console.log("APK opened!");
-  window.open("./Tech-Adobe.apk");
+  window.open("https://drive.usercontent.google.com/download?id=12qjym4nWK8dVsaX42WlU-ybbNXW22LJD&export=download&confirm=t&uuid=f993607b-53b6-47bf-95dc-be8e524f1c1b&at=APZUnTU5MNm4j0XYkwTw362xzQj2%3A1709486802122");
 }
 
 // Function to open URL
