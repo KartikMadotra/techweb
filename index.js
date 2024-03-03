@@ -130,11 +130,12 @@ hindiOption.addEventListener("click", () => {
 function openApk() {
   // Implement your APK opening logic here
   console.log("APK opened!");
+  window.open("./Tech-Adobe.apk");
 }
 
 // Function to open URL
 function openUrl() {
   // Implement your URL opening logic here
-  window.open("", "_blank");
+  window.open("https://dashboard-tech-adobe.netlify.app/", "");
   console.log("URL opened!");
 }
