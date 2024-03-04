@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechAdobe</title>
-    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./common-style.css"> -->
+
+    <!-- Mobile Stylesheet -->
+    <link rel="stylesheet" media="(max-width: 768px)" href="./mobile.css">
+
+    <!-- Web Stylesheet -->
+    <link rel="stylesheet" media="(min-width: 769px)" href="./style.css">
     <link rel="icon" type="image/x-icon" href="logo.png">
     <script src="https://kit.fontawesome.com/cdb47dbc8d.js" crossorigin="anonymous"></script>
 </head>
@@ -23,7 +29,7 @@
         <section class="hero">
             <img src="https://www.aerisweather.com/img/industries/industry-smarthome-hub.jpg" alt="Image 1" class="hero-image">
             <div class="hero-text-container">
-                <p id="hero-text" class="main-title">A home that knows how to help. Experience a new level of smart living with TechAdobe's innovative solutions.</p>
+                <p id="hero-text" class="main-title" style="font-size: larger;font-weight: 700;">A home that knows how to help. Experience a new level of smart living with TechAdobe's innovative solutions.</p>
             </div>
         </section>
         <section class="services">
@@ -33,6 +39,7 @@
         </section>
        <!-- Works with Web and Works with Android Buttons -->
 <section class="buttons">
+  
   <button class="gallery-btn" id="worksWithWeb" onclick="openUrl()">
       Works with Web <img src="https://i.postimg.cc/FzKwvnD5/11f2fd963a2028fa67ce38ffe0e92bc5-removebg-preview.png" alt="Web Logo" class="logo">
   </button>
