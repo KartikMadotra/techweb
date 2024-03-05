@@ -130,7 +130,7 @@ hindiOption.addEventListener("click", () => {
 function openApk() {
   // Implement your APK opening logic here
   console.log("APK opened!");
-  window.open("https://drive.usercontent.google.com/download?id=12qjym4nWK8dVsaX42WlU-ybbNXW22LJD&export=download&confirm=t&uuid=f993607b-53b6-47bf-95dc-be8e524f1c1b&at=APZUnTU5MNm4j0XYkwTw362xzQj2%3A1709486802122");
+  window.open("https://drive.usercontent.google.com/download?id=127WO_YvDsjtFsC7Y7Rypt0-8lb5PP_A_&export=download&authuser=0&confirm=t&uuid=cc8c2cd8-13d9-4d7c-ad3b-725bce9f5ffc&at=APZUnTUir1Dsg8lXdGtm1BGzsW9i%3A1709597837330");
 }
 
 // Function to open URL
